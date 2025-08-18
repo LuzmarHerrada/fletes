@@ -716,7 +716,7 @@ p {
 }
 
 .site-heading::before {
-  background: #4ac4f3;
+  background: #ed7c26;
   bottom: 0;
   content: "";
   height: 2px;
@@ -748,7 +748,7 @@ p {
 }
 
 .site-heading h2 span {
-  color: #4ac4f3;
+  color: #ed7c26;
 }
 
 .site-heading h2 {
