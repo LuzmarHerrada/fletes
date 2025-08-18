@@ -28,6 +28,8 @@
     <link href="style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+
 
     <!-- ========== End Stylesheet ========== -->
 
@@ -202,7 +204,7 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="site-heading text-center">
-                        <h2 class="text-bold font-4xl">Nuestros Servicios</h2>
+                        <h2 class="font-bold text-4xl">Nuestros Servicios</h2>
                         <p>
                             En nuestra empresa de mudanzas ofrecemos servicios personalizados para cada necesidad, desde mudanzas locales en CDMX hasta traslados foráneos a cualquier estado de la República. Contamos con flotilla moderna, personal capacitado y empaque especializado para asegurar la integridad de tus bienes.                        
                         </p>
@@ -212,9 +214,11 @@
             <div class="features-items">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 single-item">
-                        <div class="item">
-                            <div class="icon">
-                                <i class="flaticon-scroll"></i>
+                        <div class="item flex flex-col xl:flex-row justify-center items-center">
+                            <div class="icon bg-gray rounded-full p-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#ff8b3c" class="bi bi-truck" viewBox="0 0 16 16">
+                                    <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+                                </svg>
                             </div>
                             <div class="info">
                                 <h4>Mudanzas Locales en CDMX</h4>
@@ -229,9 +233,11 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 single-item">
-                        <div class="item">
-                            <div class="icon">
-                                <i class="flaticon-feature"></i>
+                        <div class="item flex flex-col xl:flex-row justify-center items-center">
+                            <div class="icon bg-gray rounded-full p-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#ff8b3c" class="bi bi-box-seam-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M15.528 2.973a.75.75 0 0 1 .472.696v8.662a.75.75 0 0 1-.472.696l-7.25 2.9a.75.75 0 0 1-.557 0l-7.25-2.9A.75.75 0 0 1 0 12.331V3.669a.75.75 0 0 1 .471-.696L7.443.184l.01-.003.268-.108a.75.75 0 0 1 .558 0l.269.108.01.003zM10.404 2 4.25 4.461 1.846 3.5 1 3.839v.4l6.5 2.6v7.922l.5.2.5-.2V6.84l6.5-2.6v-.4l-.846-.339L8 5.961 5.596 5l6.154-2.461z"/>
+                                </svg>
                             </div>
                             <div class="info">
                                 <h4>Mudanzas en Estado de México</h4>
@@ -246,9 +252,11 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 single-item">
-                        <div class="item">
-                            <div class="icon">
-                                <i class="flaticon-intersect"></i>
+                        <div class="item flex flex-col xl:flex-row justify-center items-center">
+                            <div class="icon bg-gray rounded-full p-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#ff8b3c" class="bi bi-truck-flatbed" viewBox="0 0 16 16">
+                                    <path d="M11.5 4a.5.5 0 0 1 .5.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-4 0 1 1 0 0 1-1-1v-1h11V4.5a.5.5 0 0 1 .5-.5M3 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m1.732 0h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4a2 2 0 0 1 1.732 1"/>
+                                </svg>
                             </div>
                             <div class="info">
                                 <h4>Mudanzas Foráneas a Otros Estados</h4>
@@ -272,13 +280,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 default info pr-60 pr-md-15 pr-xs-15">
-                    <h4>¿Por qué elegirnos?</h4>
-                    <h2>¿Por qué elegirnos?</h2>
+                    <h4>MUDANZAS Y FLETES EN MÉXICO</h4>
+                    <h2 class="font-bold text-4xl">¿Por qué elegirnos?</h2>
                     <p>
                         Elegirnos significa contar con un equipo de profesionales en mudanzas que priorizan la seguridad, el cuidado de tus bienes y la eficiencia en cada traslado. Nuestra experiencia en mudanzas locales, estatales y foráneas nos convierte en la mejor opción para quienes buscan confianza y profesionalismo.                    </p>
                     <a href="#" class="btn circle btn-theme effect btn-md">Contáctanos</a>
                     <div class="bottom-info">
-                        <h3>Diferenciadores Clave</h3>
+                        <h3 class="font-bold text-xl">Diferenciadores Clave</h3>
                         <ul>
                             <li>
                                 <i class="fas fa-check"></i> <span>Más de 10 a 25 años de experiencia en mudanzas y fletes</span>
@@ -339,533 +347,49 @@
     </div>
     <!-- End About -->
 
-    <!-- Start Overview 
+     <!-- Start Paso 
     ============================================= -->
-    <div id="overview" class="overview-area default-padding">
+    <div id="paso" class="about-area bg-white default-padding">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h2>Quick Software Overview</h2>
-                        <p>
-                            Learning day desirous informed expenses material returned six the. She enabled invited exposed him another. Reasonably conviction solicitude me mr at discretion 
-                        </p>
-                    </div>
+                <div class="col-lg-6">
+                    <img src="assets/img/camion-5.jpg" alt="" class="px-24 rounded-lg">
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12 text-center overview-items">
-                    <div class="overview-carousel owl-carousel owl-theme">
-                        <img src="assets/img/app/screnshoot-1.jpg" alt="Thumb">
-                        <img src="assets/img/app/screnshoot-2.jpg" alt="Thumb">
-                        <img src="assets/img/app/screnshoot-3.jpg" alt="Thumb">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Overview -->
-
-    <!-- Start Pricing Area
-    ============================================= -->
-    <div id="pricing" class="pricing-area default-padding bg-gray bottom-less">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h2>Our Packages</h2>
-                        <p>
-                            Learning day desirous informed expenses material returned six the. She enabled invited exposed him another. Reasonably conviction solicitude me mr at discretion 
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="pricing pricing-simple text-center">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="pricing-item">
-                            <ul>
-                                <li class="pricing-header">
-                                    <h4>Trial Version</h4>
-                                    <h2><sup>$</sup>00.00 <sub>/ Mo</sub></h2>
-                                </li>
-                                <li><i class="fas fa-check"></i> Demo file</li>
-                                <li><i class="fas fa-times"></i> Update</li>
-                                <li><i class="fas fa-check"></i> File compressed</li>
-                                <li><i class="fas fa-check"></i> Commercial use</li>
-                                <li><i class="fas fa-times"></i> Support</li>
-                                <li><i class="fas fa-times"></i> 2 database</li>
-                                <li><i class="fas fa-check"></i> Documetation</li>
-                                <li class="footer">
-                                    <a class="btn circle btn-dark border btn-sm" href="#">Buy This Plan</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="pricing-item active">
-                            <ul>
-                                <li class="pricing-header">
-                                    <h4>Regular</h4>
-                                    <h2><sup>$</sup>29.00 <sub>/ Mo</sub></h2>
-                                </li>
-                                <li><i class="fas fa-check"></i> Demo file</li>
-                                <li><i class="fas fa-check"></i> Update</li>
-                                <li><i class="fas fa-check"></i> File compressed</li>
-                                <li><i class="fas fa-times"></i> Commercial use</li>
-                                <li><i class="fas fa-check"></i> Support</li>
-                                <li><i class="fas fa-times"></i> 5 database</li>
-                                <li><i class="fas fa-check"></i> Documetation</li>
-                                <li class="footer">
-                                    <a class="btn circle btn-theme effect btn-sm" href="#">Buy This Plan</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="pricing-item">
-                            <ul>
-                                <li class="pricing-header">
-                                    <h4>Extended</h4>
-                                    <h2><sup>$</sup>59.00 <sub>/ Mo</sub></h2>
-                                </li>
-                                <li><i class="fas fa-check"></i> Demo file</li>
-                                <li><i class="fas fa-check"></i> Update</li>
-                                <li><i class="fas fa-times"></i> File compressed</li>
-                                <li><i class="fas fa-check"></i> Commercial use</li>
-                                <li><i class="fas fa-times"></i> Support</li>
-                                <li><i class="fas fa-check"></i> 8 database</li>
-                                <li><i class="fas fa-check"></i> Documetation</li>
-                                <li class="footer">
-                                    <a class="btn circle btn-dark border btn-sm" href="#">Buy This Plan</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Pricing Area -->
-
-    <!-- Start Team  
-    ============================================= -->
-    <div id="team" class="team-area default-padding bottom-less">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h2>Innovative Team</h2>
-                        <p>
-                            Learning day desirous informed expenses material returned six the. She enabled invited exposed him another. Reasonably conviction solicitude me mr at discretion 
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <div class="team-items team-carousel owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/team/7.jpg" alt="Thumb">
-                                <div class="social">
-                                    <ul>
-                                        <li class="facebook">
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li class="twitter">
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li class="pinterest">
-                                            <a href="#"><i class="fab fa-pinterest"></i></a>
-                                        </li>
-                                        <li class="instagram">
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <h4>Ahmed Kamal</h4>
-                                <span>Developer of Softing</span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/team/8.jpg" alt="Thumb">
-                                <div class="social">
-                                    <ul>
-                                        <li class="facebook">
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li class="twitter">
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li class="pinterest">
-                                            <a href="#"><i class="fab fa-pinterest"></i></a>
-                                        </li>
-                                        <li class="instagram">
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <h4>Drunal Park</h4>
-                                <span>Manager of Softing</span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/team/9.jpg" alt="Thumb">
-                                <div class="social">
-                                    <ul>
-                                        <li class="facebook">
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li class="twitter">
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li class="pinterest">
-                                            <a href="#"><i class="fab fa-pinterest"></i></a>
-                                        </li>
-                                        <li class="instagram">
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <h4>Simond Boree</h4>
-                                <span>Designer of Softing</span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/team/1.jpg" alt="Thumb">
-                                <div class="social">
-                                    <ul>
-                                        <li class="facebook">
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li class="twitter">
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li class="pinterest">
-                                            <a href="#"><i class="fab fa-pinterest"></i></a>
-                                        </li>
-                                        <li class="instagram">
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <h4>Munia Ankor</h4>
-                                <span>Founder of Softing</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Team -->
-
-    <!-- Start Blog  
-    ============================================= -->
-    <div id="blog" class="blog-area bg-gray default-padding bottom-less">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h2>Latest News</h2>
-                        <p>
-                            Learning day desirous informed expenses material returned six the. She enabled invited exposed him another. Reasonably conviction solicitude me mr at discretion 
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="blog-items">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="item">
-                            <div class="thumb">
-                                <a href="single.html">
-                                    <img src="assets/img/blog/4.jpg" alt="Thumb">
-                                        <div class="post-type">
-                                        <i class="fas fa-image"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="info">
-                                <h4>
-                                    <a href="single.html">Believe has request not how comfort</a>
-                                </h4>
-                                <div class="meta">
-                                    <ul>
-                                        <li><a href="#"><i class="fas fa-calendar-alt "></i> 12 Nov, 2018</a></li>
-                                        <li><a href="#"><i class="fas fa-user"></i> User</a></li>
-                                        <li><a href="#"><i class="fas fa-comments"></i> 23</a></li>
-                                    </ul>
-                                </div>
-                                <p>
-                                    Always polite moment on is warmth spirit it to hearts. Downs those still witty an balls so chief so. Moment an little remain
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="item">
-                            <div class="thumb">
-                                <a href="single.html">
-                                    <img src="assets/img/blog/2.jpg" alt="Thumb">
-                                        <div class="post-type">
-                                        <i class="fas fa-video"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="info">
-                                <h4>
-                                    <a href="single.html">Speaking replying mistress him numerous</a>
-                                </h4>
-                                <div class="meta">
-                                    <ul>
-                                        <li><a href="#"><i class="fas fa-calendar-alt "></i> 09 Nov, 2018</a></li>
-                                        <li><a href="#"><i class="fas fa-user"></i> User</a></li>
-                                        <li><a href="#"><i class="fas fa-comments"></i> 47</a></li>
-                                    </ul>
-                                </div>
-                                <p>
-                                    Always polite moment on is warmth spirit it to hearts. Downs those still witty an balls so chief so. Moment an little remain
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="item">
-                            <div class="thumb">
-                                <a href="single.html">
-                                    <img src="assets/img/blog/3.jpg" alt="Thumb">
-                                        <div class="post-type">
-                                        <i class="fas fa-images"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="info">
-                                <h4>
-                                    <a href="single.html">Reasonably conviction solicitude</a>
-                                </h4>
-                                <div class="meta">
-                                    <ul>
-                                        <li><a href="#"><i class="fas fa-calendar-alt "></i> 16 Nov, 2018</a></li>
-                                        <li><a href="#"><i class="fas fa-user"></i> User</a></li>
-                                        <li><a href="#"><i class="fas fa-comments"></i> 58</a></li>
-                                    </ul>
-                                </div>
-                                <p>
-                                    Always polite moment on is warmth spirit it to hearts. Downs those still witty an balls so chief so. Moment an little remain
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Blog -->
-
-    <!-- Start Testimonials 
-    ============================================= -->
-    <div class="testimonials-area default-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading single text-center">
-                        <h2>Customer Review</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="testimonial-items text-center">
-                        <div class="carousel slide" class="carousel slide" data-bs-ride="carousel" id="testimonial-carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <span class="quote"></span>
-                                    <p>
-                                        Understood instrument or do connection no appearance do invitation. Dried quick round it or order. Add past see west felt did any. Say out noise you taste merry plate you share. My resolve arrived is we chamber be removal. 
-                                    </p>
-                                    <h4>Junl Sarukh</h4>
-                                    <span>CEO of Softing</span>
-                                </div>
-                                <div class="carousel-item">
-                                    <span class="quote"></span>
-                                    <p>
-                                        Understood instrument or do connection no appearance do invitation. Dried quick round it or order. Add past see west felt did any. Say out noise you taste merry plate you share. My resolve arrived is we chamber be removal. 
-                                    </p>
-                                    <h4>Anil Spia</h4>
-                                    <span>Director of Softing</span>
-                                </div>
-                                <div class="carousel-item">
-                                    <span class="quote"></span>
-                                    <p>
-                                        Understood instrument or do connection no appearance do invitation. Dried quick round it or order. Add past see west felt did any. Say out noise you taste merry plate you share. My resolve arrived is we chamber be removal. 
-                                    </p>
-                                    <h4>Paul Munni</h4>
-                                    <span>Developer of Softing</span>
-                                </div>
-                            </div>
-                            <!-- End Carousel Content -->
-
-                            <!-- Carousel Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
-                                    <img src="assets/img/team/4.jpg" alt="Thumb">
-                                </li>
-                                <li data-bs-target="#testimonial-carousel" data-bs-slide-to="1" aria-label="Slide 2">
-                                    <img src="assets/img/team/2.jpg" alt="Thumb">
-                                </li>
-                                <li data-bs-target="#testimonial-carousel" data-bs-slide-to="2" aria-label="Slide 3">
-                                    <img src="assets/img/team/9.jpg" alt="Thumb">
-                                </li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Testimonials -->
-
-    <!-- Start Subscribe 
-    ============================================= -->
-    <div class="subscribe-area bg-fixed shadow dark text-light default-padding text-center" style="background-image: url(assets/img/banner/4.jpg);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <h3>Stay update with us</h3>
+                <div class="col-lg-6 default info pl-20 pr-md-5 pl-xs-5">
+                    <h4>¿Por qué elegirnos?</h4>
+                    <h2 class="font-bold text-4xl">¿Por qué elegirnos?</h2>
                     <p>
-                        Dried quick round it or order. Add past see west felt did any. Say out noise you taste merry plate you share. My resolve arrived is we chamber be removal.
+                        Sabemos que cada mudanza es única, por eso seguimos un proceso claro y eficiente que asegura una experiencia sin complicaciones. Nuestro método está diseñado para que tengas tranquilidad en cada etapa del traslado.    
                     </p>
-                    <div class="subscribe">
-                        <form action="#">
-                            <div class="input-group stylish-input-group">
-                                <input type="email" placeholder="Enter your e-mail here" class="form-control" name="email">
-                                <span class="input-group-addon">
-                                    <button type="submit">
-                                        <i class="fa fa-paper-plane"></i>
-                                    </button>  
-                                </span>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Subscribe -->
-
-    <!-- Start Contact Area  
-    ============================================= -->
-    <div id="contact" class="contact-us-area default-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h2>Contact Us</h2>
-                        <p>
-                            Learning day desirous informed expenses material returned six the. She enabled invited exposed him another. Reasonably conviction solicitude me mr at discretion 
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 address">
-                    <div class="address-items">
-                        <h4>Our Office Address</h4>
-                        <ul class="info">
+                    <div class="bottom-info">
+                        <h3 class="font-bold text-xl">Pasos del proceso:</h3>
+                        <ul>
                             <li>
-                                <i class="fas fa-map-marked-alt"></i> 
-                                <span>22 Baker Street,<br> London, United Kingdom,<br> W1U 3BW</span>
+                                <i class="fas fa-check"></i> <span>Cotización personalizada: evaluamos tus necesidades y te damos una propuesta clara.</span>
                             </li>
                             <li>
-                                <i class="fas fa-phone"></i> 
-                                <span>+44-20-7328-4499</span>
+                                <i class="fas fa-check"></i> <span>Planeación y logística: programamos fecha, ruta y equipo asignado.</span>
                             </li>
                             <li>
-                                <i class="fas fa-envelope-open"></i> 
-                                <span>info@yourdomain.com</span>
+                                <i class="fas fa-check"></i> <span>Empaque y protección: embalaje profesional para muebles y objetos frágiles.</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> <span>Carga y transporte: maniobras seguras con monitoreo satelital en tiempo real.</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> <span>Descarga y armado: colocamos y armamos tus muebles en el destino final.</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> <span>Revisión final: confirmamos que todo quede en orden y a tu satisfacción.</span>
                             </li>
                         </ul>
-                        <div class="social-address">
-                            <h4>Social Address</h4>
-                            <ul class="social">
-                                <li class="facebook">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li class="twitter">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li class="pinterest">
-                                    <a href="#"><i class="fab fa-pinterest"></i></a>
-                                </li>
-                                <li class="instagram">
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 contact-form">
-                    <h2>Let's lalk about your idea</h2>
-                    <form action="assets/mail/contact.php" method="POST" class="contact-form">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="form-group">
-                                    <input class="form-control" id="name" name="name" placeholder="Name" type="text">
-                                    <span class="alert-error"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
-                                    <span class="alert-error"></span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text">
-                                    <span class="alert-error"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="form-group comments">
-                                    <textarea class="form-control" id="comments" name="comments" placeholder="Tell Us About Project *"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <button type="submit" name="submit" id="submit">
-                                    Send Message <i class="fa fa-paper-plane"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <!-- Alert Message -->
-                        <div class="col-lg-12 alert-notification">
-                            <div id="message" class="alert-msg"></div>
-                        </div>
-                    </form>
+                    <a href="#" class="btn circle btn-theme effect btn-md">Contáctanos</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Contact -->
+    <!-- End About -->
 
     <!-- Start Faq  
     ============================================= -->
@@ -874,7 +398,7 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="site-heading text-center">
-                        <h2>FAQ - Preguntas Frecuentes sobre Mudanzas y Fletes</h2>
+                        <h2 class="font-bold text-4xl">FAQ - Preguntas Frecuentes sobre Mudanzas y Fletes</h2>
                         <p>
                             Sabemos que una mudanza puede generar muchas dudas, por eso respondemos las preguntas más frecuentes de nuestros clientes. Nuestro objetivo es darte la tranquilidad de contar con un servicio profesional, transparente y confiable para cada traslado.
                         </p>
@@ -1032,13 +556,91 @@
                     </div>
                     <!-- End Accordion -->
                 </div>
-                <div class="col-lg-6 thumb">
-                    <img src="assets/img/camion-4.jpg" alt="Thumb">
+                <div class="col-lg-6">
+                    <img src="assets/img/camion-4.jpg" alt="Thumb" class="">
                 </div>
             </div>
         </div>
     </div>
     <!-- End Faq  -->
+
+    <!-- Start Subscribe 
+    ============================================= -->
+    <div class="subscribe-area bg-fixed shadow dark text-light default-padding text-center" style="background-image: url(assets/img/camion-1.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <h3 class="font-bold text-4xl">¿Quieres Mudarte?</h3>
+                    <p class="py-12">
+                        Tu mudanza no tiene que ser complicada. Con nuestro servicio de fletes y mudanzas en CDMX, Estado de México y foráneas, garantizamos un proceso ágil, seguro y adaptado a tus necesidades. Confía en expertos que se encargan de todo, desde el empaque hasta el acomodo en tu nuevo destino.
+                    </p>
+                    <div class="subscribe">
+                         <a href="#" class="btn circle btn-theme effect btn-sm">Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Subscribe -->
+
+    <!-- Start Contact Area  
+    ============================================= -->
+    <div id="contact" class="contact-us-area default-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h2 class="font-bold text-4xl">Contáctanos</h2>
+                        <p>
+                            Tu mudanza no tiene que ser complicada. Con nuestro servicio de fletes y mudanzas en CDMX, Estado de México y foráneas, garantizamos un proceso ágil, seguro y adaptado a tus necesidades. Confía en expertos que se encargan de todo, desde el empaque hasta el acomodo en tu nuevo destino.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 address">
+                    <div class="address-items">
+                        <h4>¿Dónde Puedes Encontrarnos?</h4>
+                        <ul class="info">
+                            <li>
+                                <i class="fas fa-map-marked-alt"></i> 
+                                <span>CDMX, Estado de México y toda la República Mexicana</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i> 
+                                <span>+44-20-7328-4499</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope-open"></i> 
+                                <span>info@yourdomain.com</span>
+                            </li>
+                        </ul>
+                        <div class="social-address">
+                            <h4>Social Address</h4>
+                            <ul class="social">
+                                <li class="facebook">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="twitter">
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="pinterest">
+                                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                                </li>
+                                <li class="instagram">
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 contact-form">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d481934.6215195403!2d-99.48228900860222!3d19.32084886167432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0036b1352927%3A0xdefd9e4ee8d18a5b!2zQ2QuIGRlIE3DqXhpY28sIE3DqXhpY28!5e0!3m2!1ses!2sus!4v1755473138342!5m2!1ses!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact -->
 
     <!-- Start Footer 
     ============================================= -->
